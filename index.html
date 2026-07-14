@@ -5,84 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WorldWise Texas</title>
   <meta name="description" content="WorldWise Texas helps kids in Texas learn about countries, culture, and geography through short videos and simple explanations." />
-  <style>
-    :root{--bg:#f7f5ef;--card:#ffffff;--ink:#17324a;--muted:#5e6a74;--accent:#0f7c7b;--accent2:#f08a24;--line:#dde4e8;}
-    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6} a{color:var(--accent);text-decoration:none} header{background:linear-gradient(135deg,#17324a,#0f7c7b);color:#fff;padding:48px 20px} .wrap{max-width:1100px;margin:0 auto;padding:0 20px} nav{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px} nav a{color:#fff;opacity:.95} .hero{display:grid;grid-template-columns:1.3fr .9fr;gap:24px;align-items:center} .hero h1{font-size:clamp(2rem,5vw,4rem);line-height:1.05;margin:0 0 12px} .hero p{font-size:1.08rem;max-width:62ch} .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px} .btn{display:inline-block;padding:12px 18px;border-radius:999px;font-weight:700} .btn.primary{background:var(--accent2);color:#1e1e1e} .btn.secondary{background:#fff;color:var(--accent)} main{padding:34px 0 60px} .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px} .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 8px 30px rgba(23,50,74,.06)} h2{font-size:1.7rem;margin:0 0 12px} h3{margin:0 0 10px} .section{margin-top:30px} .two{display:grid;grid-template-columns:1fr 1fr;gap:18px} .tag{display:inline-block;background:#e8f4f4;color:#0f6d6c;padding:6px 10px;border-radius:999px;font-size:.88rem;font-weight:700} footer{padding:28px 0;color:var(--muted)} ul{padding-left:18px} .note{color:var(--muted);font-size:.95rem} @media(max-width:900px){.hero,.grid,.two{grid-template-columns:1fr}}
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <div class="wrap hero">
-    <div>
-      <span class="tag">Texas • Countries • Culture • Geography</span>
-      <h1>WorldWise Texas</h1>
-      <p>WorldWise Texas helps kids in Texas learn about countries, culture, and geography through short videos and simple explanations.</p>
-      <div class="btns">
-        <a class="btn primary" href="#pages">Explore pages</a>
-        <a class="btn secondary" href="#mission">Our mission</a>
-      </div>
-      <nav>
-        <a href="#about">About Us</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#resources">Resources</a>
-        <a href="#certificates">Virtual travel certificates</a>
-        <a href="#partners">Partners</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">WorldWise Texas</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="resources.html">Resources</a>
+        <a href="virtual-travel-certificates.html">Virtual Travel Certificates</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="partners.html">Partners</a>
       </nav>
     </div>
-    <div class="card" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff">
-      <h3>What we share</h3>
-      <ul>
-        <li>Short videos about countries.</li>
-        <li>Simple culture explanations.</li>
-        <li>Easy geography learning for kids.</li>
-        <li>Texas-friendly educational content.</li>
-      </ul>
-    </div>
-  </div>
-</header>
-<main class="wrap">
-  <section class="grid" id="pages">
-    <div class="card"><h3>About Us</h3><p>Learn who we are and why WorldWise Texas was created to help kids explore the world.</p></div>
-    <div class="card"><h3>Contact Us</h3><p>Reach out for school programs, partnerships, questions, or new video ideas.</p></div>
-    <div class="card"><h3>Resources</h3><p>Find videos, activities, and learning tools for kids, families, and teachers.</p></div>
-  </section>
-  <section class="two section">
-    <div class="card" id="certificates">
-      <h2>Virtual travel certificates</h2>
-      <p>Celebrate learning with printable certificates for kids who complete country or geography lessons.</p>
-      <p class="note">Example: “WorldWise Texas Global Explorer Certificate.”</p>
-    </div>
-    <div class="card" id="partners">
-      <h2>Partners</h2>
-      <p>We welcome schools, libraries, nonprofits, museums, and community groups that support education.</p>
-      <p>Partners help us share more geography and culture content with Texas kids.</p>
-    </div>
-  </section>
-  <section class="section card" id="mission">
-    <h2>Our Mission</h2>
-    <p>Our mission is to help kids in Texas build geographic knowledge by learning about countries, their cultures, and their geography through short, easy-to-understand videos and explanations.</p>
-  </section>
-  <section class="section card" id="about">
-    <h2>About Us</h2>
-    <p>WorldWise Texas is an educational project for children, families, and classrooms. We make simple videos and short explanations about countries, culture, and geography so learning feels fun, clear, and interesting. We want kids to stay curious about the world and understand how different places and people connect.</p>
-  </section>
-  <section class="section card" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: hello@worldwisetexas.com</p>
-    <p>Location: Katy, Texas, United States</p>
-    <p>For school or partner requests, include your name, organization, grade level, and topic.</p>
-  </section>
-  <section class="section card" id="resources">
-    <h2>Resources</h2>
-    <ul>
-      <li>Country fact sheets</li>
-      <li>Geography videos</li>
-      <li>Culture guides</li>
-      <li>Printable activities</li>
-      <li>Map learning tools</li>
-    </ul>
-  </section>
-</main>
-<footer class="wrap">© 2026 WorldWise Texas</footer>
+  </header>
+
+  <main class="wrap">
+    <section class="hero card">
+      <h1>Learn countries, culture, and geography.</h1>
+      <p>WorldWise Texas helps kids in Texas learn about countries around the world through short videos and simple explanations.</p>
+      <div class="hero-actions">
+        <a class="button" href="about-us.html">Learn More</a>
+        <a class="button secondary" href="resources.html">Explore Resources</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>About Us</h2>
+        <p>Learn who we are, our mission, and why geography matters.</p>
+        <a href="about-us.html">Go to About Us</a>
+      </article>
+      <article class="card">
+        <h2>Resources</h2>
+        <p>Find short videos and quick articles about countries, culture, and geography.</p>
+        <a href="resources.html">Go to Resources</a>
+      </article>
+      <article class="card">
+        <h2>Virtual Travel Certificates</h2>
+        <p>Celebrate learning with printable certificates. Quiz section coming soon.</p>
+        <a href="virtual-travel-certificates.html">Go to Certificates</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>© 2026 WorldWise Texas</p>
+  </footer>
 </body>
 </html>
